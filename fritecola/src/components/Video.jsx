@@ -7,9 +7,9 @@ function Video() {
       <div className="video-wrapper">
         <video
           autoPlay
+          muted
           loop
-          controls
-          playsInline
+           playsInline
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         >
           <source src={videoSource} type="video/mp4" />

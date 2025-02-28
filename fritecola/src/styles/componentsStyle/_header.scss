@@ -1,0 +1,17 @@
+.header-container{
+  display: flex;
+align-items: center;
+  width: 100%;
+  min-height: 20vh;
+ justify-content: space-between;
+ background-size: cover;   // Ajuste l'image pour remplir l'élément
+  background-position: center;  // Centre l'image
+  background-repeat: no-repeat;
+  background-color: black;
+  border-bottom: 1px solid white;
+
+  .logo{
+    width: 160px;
+  height: 100px;
+}
+}
