@@ -1,0 +1,118 @@
+
+
+
+.main_container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+ align-items: center;
+ justify-content: center;
+ background-size: cover;   // Ajuste l'image pour remplir l'élément
+  background-position: center;  // Centre l'image
+  background-repeat: no-repeat;  
+ 
+
+  .logo-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+
+  .allfresque{
+   display: flex;
+   flex-direction: column;
+  .video-container{
+    width: 200px;
+  }
+   
+   .fresqueBase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .video-container{
+      width: 230px;
+
+    }
+    .mobile{
+      width: 320px;
+      height: 450px;
+      position: absolute;
+      z-index: 2;
+  
+     }
+  
+     .frite_one{
+      position: absolute;
+      width: 210px;
+      height: auto;
+      left: 21%;
+      bottom: -5%;
+      z-index: 3;
+     }
+  
+     .frite_two{
+      width: 210px;
+      height: auto;
+      position: absolute;
+      right: 21%;
+      bottom: -5%;
+      z-index: 3;
+     }
+  
+     .goblet_one{
+      width: 340px;
+      height: auto;
+      transform: scaleX(-1);
+     }
+  
+     .goblet_two{
+      width: 340px;
+      height: auto;
+     }
+     .frite-sol{
+      position: absolute;
+      top: 300px;
+      width: 400px;
+      z-index: 4;
+     }
+
+   }
+
+  }
+   
+  .button_container{
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+
+    button{
+      width: 200px;
+      border: 1px solid white;
+      border-radius: 20px;
+      padding:10px ;
+      color: white;
+      background-color: black;
+      font-weight: 600;
+      cursor: pointer;
+     
+      &:hover{
+        color: black;
+        background-color: white;
+        border: 1px solid white;
+
+      }
+    }
+  }
+  
+}
+   
+
