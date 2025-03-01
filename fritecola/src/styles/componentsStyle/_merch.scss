@@ -1,0 +1,110 @@
+@use "../setting" as *;
+
+.merch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  font-family: $fontone;
+
+  .introduc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 6vh 0;
+    color: white;
+
+    h1 {
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 24px;
+    }
+  }
+
+  .product-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .fiche {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+      height: 200px;
+      height: auto;
+      background-color: rgba(41, 40, 40, 0.693);
+      margin: 10px 10px;
+      padding: 6px;
+      border-radius: 20px;
+      cursor: pointer;
+
+      .img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 260px;
+        height: 290px;
+        border: 1px solid black;
+        padding: 6px;
+        border-radius: 20px;
+        background-color: rgba(240, 255, 255, 0.057);
+
+        .imgt {
+          width: 100%;
+          height: 100%;
+        }
+
+        .capote-img {
+          width: 120%;
+        }
+      }
+
+      .description {
+        text-align: center;
+        padding: 10px;
+        color: white;
+
+        h2 {
+          margin-top: 5px;
+        }
+
+        .comment {
+          width: 100%;
+          text-align: left;
+          margin-top: 5px;
+          font-style: italic;
+        }
+
+        .price-container {
+          margin-top: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .price {
+            width: 100%;
+
+            font-size: 26px;
+            font-weight: 700;
+            color: red;
+          }
+
+          .frite {
+            width: 30px;
+          }
+
+          .cola {
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+}
