@@ -34,8 +34,8 @@ function Home() {
           <p>10 - Queuleuleu</p>
           <p>11 - Christophe le conquérant</p>
           <p>12 - Je me barre</p>
-          <p>13 - Je suis Cool</p>
-          <p>14</p>
+          <p>13 - Sauvage</p>
+          <p>14 - Je suis cool</p>
         </div>
       </div>
     </div>
