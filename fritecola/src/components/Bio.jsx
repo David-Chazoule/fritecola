@@ -72,42 +72,112 @@ function Bio() {
       <div className="bio-member-container">
         <h1>Présentation des membres</h1>
         <p className="bychris">par Christophe lui même</p>
-      </div>
 
-      <div className="member">
-        <div className="chris">
-          <img className="membre" src={chris} alt="group" />
-          <div className="description-chris">
-            <h3>Chris</h3>
-            <p>bkabkabkabababababababababababbaab</p>
+        <div className="member">
+          <div className="chris">
+            <img className="membre" src={chris} alt="group" />
+            <div className="description-chris">
+              <h2>Christophe</h2>
+              <p>
+                Hey amigo !!! Moi, c’est Christophe, pour te servir, mon copain.
+                Je suis le leader de ce groupe ! Qui d’autre que moi pourrait
+                gérer un groupe d’humains ? J’ai eu ma propre entreprise, tu
+                vois le niveau ! J’ai toujours voulu avoir mon groupe à moi, un
+                bon groupe de rock ! Bon, avec l’arrivée de David, il a fallu
+                que j’ajoute un peu d’électro, mais m’enfin… Je suis le mec le
+                plus cool de Lyon, tu le sais ! Vous le savez tous ! Ta copine
+                le sait ! Je gratte ma guitare depuis toujours. Je crois
+                qu’après les femmes, c’est ce que je préfère : ma putain de
+                guitare ! J’ai failli fourrer ma **** dedans ! Ça va, je déconne
+                ! Sois rock’n’roll, man ! Sois rebelle !
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="chris">
-          <img className="membre" src={mae} alt="group" />
-          <div className="description-chris">
-            <h3>Mae</h3>
-            <p>bkabkabkabababababababababababbaab</p>
+          <div className="chris">
+            <img className="membre" src={mae} alt="group" />
+            <div className="description-chris">
+              <h2>Maeva</h2>
+              <p>
+                La première fois que j’ai vu Maéva, ce n’est pas son talent de
+                chanteuse que j’ai retenu. Elle est plutôt bien roulée, la
+                petite ! Nan, en vrai, on devait prendre Martina, mais c’est une
+                catastrophe : un anglais horrible, et je ne parle même pas de
+                son français ! Alors qu’on bossait à McDonald’s, j’ai surpris
+                Maéva en train de chantonner à la caisse. Ça m’a presque donné
+                envie d’acheter un menu Big Mac XXL ! Alors que je travaillais
+                pour McDo, j’avais tout gratuit ! Mais malheureusement, son
+                copain de l’époque l’empêchait de s’approcher de tout ce qui
+                possédait un zizi… La débâcle ! Au final, on s’est retrouvés sur
+                Paris, et là, bim, le groupe est arrivé : FRITE COLA !
+                ROCK’N’ROLL ! En plus, elle joue de la basse, c’est un atout pas
+                négligeable. Puis, une fille bien roulée dans un groupe, c’est
+                des ventes en plus !
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="chris">
-          <img className="membre" src={dav} alt="group" />
-          <div className="description-chris">
-            <h3>David</h3>
-            <p>bkabkabkabababababababababababbaab</p>
+          <div className="chris">
+            <img className="membre" src={dav} alt="group" />
+            <div className="description-chris">
+              <h2>David</h2>
+              <p>
+                David travaillait au McDo avec moi. On ne s’était pas
+                particulièrement parlé, puis un jour, il s’est fait virer. "FUCK
+                MACDONALD ! JE SUIS VIRÉ !" Là, je me suis dit : "Bordel, il me
+                le faut dans le groupe !" C’est une attitude rock’n’roll, c’est
+                une attitude rebelle, et ça, ça me plaît ! Il a un petit don
+                pour l’écriture, puis il se connaît bien en machines,
+                ordinateurs, machins, trucs… Bingo ! Bienvenue dans le groupe !
+                Ça reste un élément difficile à gérer : quand il ne fait pas une
+                dépression pour une fille, il en fait une pour on ne sait pas
+                quoi. Mais bon, il a les cheveux longs, ça, c’est rock’n’roll !
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="chris">
-          <img className="membre" src={tony} alt="group" />
-          <div className="description-chris">
-            <h3>Tony</h3>
-            <p>bkabkabkabababababababababababbaab</p>
+          <div className="chris">
+            <img className="membre" src={tony} alt="group" />
+            <div className="description-chris">
+              <h2>Tony</h2>
+              <p>
+                Avec Tony, on s’est tout de suite entendus. Il y a un esprit de
+                compétition entre nous depuis qu’on se connaît : qui fera le
+                meilleur cornet de frites, qui gagnera à Citadelle… C’est comme
+                ça, on est en compète ! Même pour les filles ! À McDo, on avait
+                le béguin pour les mêmes nanas, mais tu sais quoi ? C’est bibi
+                qui a tout gagné, parce que je suis le Lyonnais le plus cool !
+                Avec Tony, on rencontre deux problèmes : il est un peu dur de
+                l’oreille, et c’est chiant, très chiant ! Le deuxième, c’est son
+                besoin de fuir la civilisation et de vivre comme un hippie des
+                montagnes. Tu es là, en pleine session studio, et le mec craque
+                : il se barre dans la montagne pendant un mois ! C’est
+                compliqué… Mais cette attitude hippie, c’est rock’n’roll,
+                regarde John Lennon !
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="chris">
-          <img className="membre" src={randy} alt="group" />
-          <div className="description-chris">
-            <h3>Randy</h3>
-            <p>bkabkabkabababababababababababbaab</p>
+          <div className="chris">
+            <img className="membre" src={randy} alt="group" />
+            <div className="description-chris">
+              <h2>Randy</h2>
+              <p>
+                Avec Randy, on a bossé ensemble. C’était mon associé : j’étais
+                le cerveau, il était les mains. On avait une start-up dans le
+                high-tech. Techniquement, il n’avait rien pour rentrer dans le
+                groupe. On essayait de faire du fric avec notre entreprise, mais
+                j’avais remarqué un truc chez lui : il avait un sacré sens du
+                rythme. Chaque tâche était faite de manière rythmée ! La manière
+                dont il tapait avec un marteau, c’était du Phil Rudd d’AC/DC !
+                Un jour, je lui ai dit : "Mec, deviens mon batteur !" Il m’a
+                répondu : "Mais je ne sais pas faire de la batterie !" Moi,
+                j’étais sûr du contraire. Je lui ai dit : "Mec, je te jure, tu
+                as ce truc en toi !" Il l’a mal pris, il m’a dit que je disais
+                ça parce qu’il était noir. Je lui ai répondu : "Mec, t’inquiète,
+                fais confiance, amigo !" J’ai ramené une poubelle à pédale pour
+                la grosse caisse, deux marmites pour les toms, des couvercles
+                pour les cymbales, et let’s go ! Je lui ai dit : "Joue, mec !"
+                Et là, waouh ! C’était incroyable ! J’avais le Ringo Starr noir
+                devant moi ! Direct, je l’ai signé. Il est devenu mon batteur.
+              </p>
+            </div>
           </div>
         </div>
       </div>
