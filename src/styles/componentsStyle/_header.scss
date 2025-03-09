@@ -1,0 +1,28 @@
+@use "../setting" as *;
+.header-container{
+  display: flex;
+align-items: center;
+  width: 100%;
+  min-height: 15vh;
+ justify-content: space-between;
+ background-size: cover;   // Ajuste l'image pour remplir l'élément
+  background-position: center;  // Centre l'image
+  background-repeat: no-repeat;
+  background-color: black;
+  border-bottom: 1px solid white;
+  font-family: $fontone;
+
+  @media screen and (max-width: 800px) {
+    min-height: 12vh;
+   }
+
+  .logo{
+    width: 160px;
+  height: 100px;
+
+  @media screen and (max-width: 800px) {
+   width: 140px;
+   height: 80px;
+  }
+}
+}
