@@ -1,16 +1,12 @@
+import AppRouter from "./components/AppRouter";
 
-import AppRouter from './components/AppRouter';
-
-import './styles/_index.scss'
+import "./styles/_index.scss";
 function App() {
-
-
   return (
     <div>
-      <AppRouter/>
-       
+      <AppRouter />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

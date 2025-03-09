@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Main from "./Main";
 import Header from "./Header";
 import Bio from "./Bio";
@@ -8,10 +8,8 @@ import React from "react";
 
 function AppRouter() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Main />} />
-      
+    <Routes>
+      <Route path="/" element={<Main />} />
 
       <Route
         path="/home"
@@ -30,15 +28,22 @@ function AppRouter() {
         }
       />
       <Route
-        path="/Merch"
+        path="/merch"
         element={
           <PageWithHeader>
             <Merch />
           </PageWithHeader>
         }
       />
-      </Routes>
-    </Router>
+      <Route
+        path="*"
+        element={
+          <PageWithHeader>
+            <h1>404 - Page non trouvée</h1>
+          </PageWithHeader>
+        }
+      />
+    </Routes>
   );
 }
 
