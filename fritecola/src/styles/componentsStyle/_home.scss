@@ -1,0 +1,179 @@
+.main_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-size: cover; // Ajuste l'image pour remplir l'élément
+  background-position: center; // Centre l'image
+  background-repeat: no-repeat;
+
+  .logo-container {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12vh;
+    margin-top: -30vh;
+
+    img {
+      @media screen and (max-width: 800px) {
+        width: 200px;
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+    }
+  }
+
+  .allfresque {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 200px;
+
+    .video-container {
+      width: 200px;
+    }
+
+    .fresqueBase {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .video-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        position: absolute;
+        top: -288px;
+        right: -140px;
+        z-index: 2;
+
+        @media screen and (max-width: 800px) {
+          bottom: -200px;
+          left: -150px;
+        }
+      }
+      .mobile {
+        width: 320px;
+        height: 460px;
+        position: absolute;
+        z-index: 3;
+        top: -300px;
+
+        @media screen and (max-width: 800px) {
+          width: 170px;
+          height: 230px;
+          top: -154px;
+        }
+      }
+
+      .frite_one {
+        position: absolute;
+        width: 210px;
+        height: auto;
+        left: 40px;
+        top: -170px;
+        z-index: 4;
+
+        @media screen and (max-width: 800px) {
+          width: 90px;
+          left: 24px;
+          top: -50px;
+        }
+      }
+
+      .frite_two {
+        width: 210px;
+        height: auto;
+        position: absolute;
+        right: 40px;
+        top: -170px;
+        z-index: 4;
+        @media screen and (max-width: 800px) {
+          width: 90px;
+          right: 24px;
+          top: -50px;
+        }
+      }
+
+      .goblet_one {
+        width: 340px;
+        height: auto;
+        position: absolute;
+        transform: scaleX(-1);
+        right: 64px;
+        bottom: -80px;
+        z-index: 1;
+
+        @media screen and (max-width: 800px) {
+          width: 120px;
+          right: 30px;
+          bottom: -20px;
+        }
+      }
+
+      .goblet_two {
+        width: 340px;
+        height: auto;
+        position: absolute;
+        left: 64px;
+        bottom: -80px;
+        z-index: 1;
+        @media screen and (max-width: 800px) {
+          width: 120px;
+          bottom: -20px;
+          left: 30px;
+        }
+      }
+      .frite-sol {
+        position: absolute;
+        top: -10px;
+        width: 360px;
+        z-index: 4;
+
+        @media screen and (max-width: 800px) {
+          width: 200px;
+          top: 18px;
+        }
+      }
+    }
+  }
+
+  .button_container {
+    margin-top: 10vh;
+    position: absolute;
+    bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    z-index: 5;
+
+    @media screen and (max-width: 800px) {
+      bottom: 100px;
+    }
+
+    button {
+      width: 200px;
+      border: 1px solid white;
+      border-radius: 20px;
+      padding: 10px;
+      color: white;
+      background-color: black;
+      font-weight: 600;
+      cursor: pointer;
+
+      &:hover {
+        color: black;
+        background-color: white;
+        border: 1px solid white;
+      }
+    }
+  }
+}
