@@ -40,8 +40,8 @@ function Home() {
       </div>
       <div className="down-container">
       
-      <a href="/files/FriteColaElectrique-FriteColaElectriqueLP-2025.rar" download>
-        Télécharger l"album
+      <a href="https://1fichier.com/?bhmw66ugj5q18xc8ak47" target="_blank" rel="noopener noreferrer" >
+        Télécharge ici
       </a>
     </div>
     </div>
