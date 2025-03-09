@@ -15,7 +15,7 @@ function Merch() {
         tshirt.map((elem, key) => (
           <div className="fiche" key={key}>
             <div className="img-container">
-              <img className={elem.img==="capote"?"capote-img":"imgt"} src={`../img/merch/${elem.img}.png`} alt="merch" />
+              <img className={elem.img==="capote"?"capote-img":"imgt"} src={`/merch/${elem.img}.png`} alt="merch" />
               </div>
               <div className="description">
                 <h2>{elem.name}</h2>
