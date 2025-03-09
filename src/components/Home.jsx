@@ -40,7 +40,7 @@ function Home() {
       </div>
       <div className="down-container">
       
-      <a href="/Frite Cola Electrique - Frite Cola Electrique LP (2025).rar" download>
+      <a href="../assets/Frite Cola Electrique - Frite Cola Electrique LP (2025).rar" download>
         Télécharger l"album
       </a>
     </div>
