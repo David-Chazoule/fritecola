@@ -26,22 +26,22 @@ function Bio() {
         Londres. Christophe, guitariste depuis son plus jeune âge, travaille
         dans un McDonald’s près du Big Ben. Pendant son travail ennuyeux, il
         fait la connaissance de Tony, ainsi que d’un certain Gabrielle, Olivier
-        et de Djodesty. Il décide de former un groupe qui s’appellera « Menu
+        et de Djodesty.<br/> <br/>Il décide de former un groupe qui s’appellera « Menu
         Best Of ». Tony, agile de ses doigts, sera au clavier, Djo à la
         batterie, Olivier à la basse, et enfin Christophe à la guitare et au
         chant. Avec un emploi du temps chargé, il leur devient difficile de
         trouver du temps pour répéter. De plus, leur goût commun pour la fête et
         les femmes les détourne le plus souvent de leur projet de groupe. Ils se
         produiront dans un pub de Camden Town devant un public de 5 personnes.
-        Christophe décide de recruter une chanteuse. Il se penche d’abord sur
+        <br/><br/>Christophe décide de recruter une chanteuse. Il se penche d’abord sur
         Martina, mais Martina, ayant une faible maîtrise de l’anglais, sera vite
         écartée. Il se penche ensuite sur Maeva, mais cette dernière, sous
         l’emprise d’un petit ami jaloux, refuse. Le groupe trouve de moins en
-        moins de temps pour répéter. Djo, préférant les femmes et la drogue, se
+        moins de temps pour répéter.<br/> <br/>Djo, préférant les femmes et la drogue, se
         fait virer par Christophe. Il y a des tensions entre Olivier et Tony
         pour les yeux d’une belle Hongroise, et Gabrielle est de plus en plus à
         l’écart du groupe. Olivier, l’amoureux chronique, quitte le groupe pour
-        une femme. Christophe se trouve embêté, mais le 3 janvier, sous ses
+        une femme. <br/><br/>Christophe se trouve embêté, mais le 3 janvier, sous ses
         yeux, il voit David, un collègue, se faire virer. Charmé par la réaction
         violente et agressive de ce dernier, Christophe l’approche et lui
         propose de rejoindre le groupe. Christophe, trouvant l’attitude de David
@@ -52,7 +52,7 @@ function Bio() {
         succès escompté. Tony, après avoir rencontré un chaman, décide de
         quitter le groupe pour l’Amérique du Sud, pour y faire un voyage
         intérieur et astral. David, qui enchaîne dépression sur dépression, ne
-        se montre plus disponible. Christophe dissout le groupe. Pendant
+        se montre plus disponible. Christophe dissout le groupe.<br/><br/> Pendant
         plusieurs années, chacun mènera sa vie à sa manière. En 2016, pour la
         plupart, tous étant sur Paris, ils décident de se retrouver autour d’un
         verre. Maeva, fraîchement célibataire, se joint à cet apéro improvise.
@@ -62,7 +62,7 @@ function Bio() {
         voulait. Ne rencontrant toujours pas le succès, chacun, à côté du
         groupe, travaille. Tony dans une agence de voyage, David une année sur
         deux au chômage, et Maeva, elle, enchaîne toutes sortes de travaux
-        possibles à cause de son incapacité à rester en place. Christophe lance
+        possibles à cause de son incapacité à rester en place. <br/><br/>Christophe lance
         sa start-up et fait la rencontre de son associé Randy. Le feeling est
         bon, mais l’entreprise ne fonctionne pas. Christophe décèle quelque
         chose en Randy et finit par le convaincre de rejoindre le groupe. De là

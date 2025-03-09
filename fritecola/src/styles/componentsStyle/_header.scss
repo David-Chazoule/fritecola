@@ -12,8 +12,17 @@ align-items: center;
   border-bottom: 1px solid white;
   font-family: $fontone;
 
+  @media screen and (max-width: 800px) {
+    min-height: 12vh;
+   }
+
   .logo{
     width: 160px;
   height: 100px;
+
+  @media screen and (max-width: 800px) {
+   width: 140px;
+   height: 80px;
+  }
 }
 }

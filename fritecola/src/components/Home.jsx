@@ -38,6 +38,12 @@ function Home() {
           <p>14 - Je suis cool</p>
         </div>
       </div>
+      <div className="down-container">
+      
+      <a href="/Frite Cola Electrique - Frite Cola Electrique LP (2025).rar" download>
+        Télécharger l"album
+      </a>
+    </div>
     </div>
   );
 }

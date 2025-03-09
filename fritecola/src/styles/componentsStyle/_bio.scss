@@ -17,6 +17,10 @@
     letter-spacing: 3px;
     padding: 10px;
     border-radius: 20px;
+    @media screen and (max-width: 800px) {
+      width: 90%;
+      
+     }
   }
 
   .title-bio {
@@ -32,6 +36,12 @@
       position: absolute;
       bottom: 5%;
       right: 38%;
+      @media screen and (max-width: 800px) {
+       font-size: 24px;
+       bottom: 1px;
+      right: 40px;
+     
+       }
     }
 
     .img-gr {
@@ -43,6 +53,11 @@
       img {
         width: 20%;
         filter: drop-shadow(0 0 26px rgba(241, 255, 255, 0.8));
+        @media screen and (max-width: 800px) {
+          width: 150px;
+          
+         }
+      
       }
     }
   }
@@ -60,6 +75,10 @@
     h1 {
       font-size: 2rem;
       margin-bottom: 10px;
+      @media screen and (max-width: 800px) {
+        font-size: 1.5em;
+        
+       }
     }
 
     .bychris {
@@ -67,6 +86,12 @@
       margin-bottom: 20px;
       background: none;
       margin-bottom: 10vh;
+
+      @media screen and (max-width: 800px) {
+        margin-bottom: 5vh;
+        font-size: 1em;
+        
+       }
     }
   }
 
@@ -85,7 +110,12 @@
       justify-content: center;
       align-items: center;
       gap: 15px;
-      width: 30%; // Ajuste la largeur pour éviter que ça touche les bords
+      width: 30%;
+      @media screen and (max-width: 800px) {
+        width: 80%;
+        
+       }
+   
 
       .membre {
         width: 100%;
@@ -118,6 +148,12 @@
           font-size: 17px;
           line-height: 24.5px;
           letter-spacing: 2px;
+
+          @media screen and (max-width: 800px) {
+            padding:2px;
+            font-size: 15px;
+            
+           }
         }
       }
     }
